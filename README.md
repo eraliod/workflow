@@ -34,9 +34,9 @@ Otherwise it will not be listed in the possible install locations and you will h
 
 ## Basic Housekeeping
 ### Update and Upgrade
-After initially setting up the primary user, open a terminal to run the commands
-`sudo apt get update`  
-`sudo apt get upgrade`  
+After initially setting up the primary user, open a terminal to run the commands  
+`sudo apt-get update`  
+`sudo apt-get upgrade`  
 `sudo apt dist-upgrade`  
 `sudo apt autoremove`  
 `sudo apt autoclean`  
@@ -106,11 +106,16 @@ Spotify
 
 
 ### Gnome Extensions
+Install the native host messaging application  
+`sudo apt install chrome-gnome-shell`  
+  
+Install the browser extension  
 These are installed from https://extensions.gnome.org
 - Caffine - *Disable the screensaver and auto suspend*
 - User Themes
 - Removable Drive Menu
 - Bluetooth Quick Connect
+- Dash to Dock
 
 ### Go through all programs
 Hit META+A and go through all programs, decide whether you need them or uninstall these.
@@ -122,7 +127,7 @@ Preferences > Pop > Colors
 - [ ] Use transparency from system theme
 
 ### Gnome Tweaks (Basic)
-`sudo apt install gnome-tweak-tool`  
+`sudo apt install gnome-tweaks`  
 
 **Settings to Change**
 - Change Time to AM/PM
@@ -133,10 +138,8 @@ Preferences > Pop > Colors
 - Automatically delete recent files and trash
 - Turn of screen after 15 min
 - Turn on night mode
-- Add online account for Nextcloud
 - Deactivate system sounds, mute mic
 - Turn of suspend, shutdown for power button
-- Turn on natural scrool for mouse touchpad
 - Go through keyboard shortcuts and adapt, I also add a custom one for xkill on CTRL+ALT+X
 - Check region and language, remove unnecessary languages, then update
 
